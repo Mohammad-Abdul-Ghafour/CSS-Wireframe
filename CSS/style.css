@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    height: 70px;
+    vertical-align: middle;
+    margin: 15px;
+    line-height: 70px;
+}
+nav ul li a{
+    color: lightgray;
+}
+#Top{
+    text-align: center;
+    margin: 20px 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Top img{
+    /* width: 100%; */
+}
+#Middle{
+    text-align: center;
+    margin: 20px 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Middle img:nth-child(2){
+    padding: 0px 25px;
+}
+#Bottom{
+    text-align: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#Bottom article{
+    /* display: inline-block; */
+    width: 50%;
+    height: 400px;
+}
+#Bottom article:first-child{
+    
+ 
+}
+#Bottom article:last-child{
+    /* float: right; */
+    text-align: justify;
+padding-left: 20px;
+}
+#Bottom article:last-child h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    height: 10%;
+}
+#Bottom article:last-child p{
+    font-size: 18px;
+font-style: italic;
+padding-bottom: 10px;
+height: 75%;
+overflow: auto;
+}
+#Bottom button{
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 30px;
+    width: 120px;
+    height: 10%;
+    margin-top: 4.4%;
+}
+#Bottom button:hover{
+    background-color: #c9c9c9;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: gray;
+    height: 70px;
+    clear: both;
+    margin-top: 20px;
+}
